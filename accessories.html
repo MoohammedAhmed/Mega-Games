@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+    <meta name="description" content="Mega Games - متجر أجهزة الكمبيوتر والألعاب الرائد. تجميعات PC احترافية وأحدث الإكسسوارات.">
+    <meta name="keywords" content="gaming, hardware, PC, RTX, Mega Games, ألعاب, كمبيوتر">
+    <meta name="author" content="Mega Games Team">
+    <meta property="og:title" content="Mega Games | عالم الجيمنج">
+    <meta property="og:description" content="تسوق أحدث قطع الهاردوير بأسعار تنافسية.">
+    <meta property="og:image" content="logo.png">
+
+    <meta charset="UTF-8">
+    <title>الإكسسوارات - Mega Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-layout">
+
+        <aside class="filter-sidebar">
+            <h3 style="margin-bottom: 20px; font-family: 'Orbitron'; color: var(--neon-blue);">تصفية</h3>
+            
+            <div class="filter-group">
+                <h4>النوع</h4>
+                <label><input type="checkbox" class="type-filter" value="MOUSE"> ماوسات (Mouse)</label>
+                <label><input type="checkbox" class="type-filter" value="KB"> لوحات مفاتيح (Keyboard)</label>
+                <label><input type="checkbox" class="type-filter" value="HEADSET"> سماعات (Headset)</label>
+                <label><input type="checkbox" class="type-filter" value="PAD"> ماوس باد (Mousepad)</label>
+            </div>
+
+            <div class="filter-group" style="margin-top: 30px;">
+                <h4>الماركة</h4>
+                <label><input type="checkbox" class="brand-filter" value="Logitech"> Logitech</label>
+                <label><input type="checkbox" class="brand-filter" value="Razer"> Razer</label>
+                <label><input type="checkbox" class="brand-filter" value="HyperX"> HyperX</label>
+                <label><input type="checkbox" class="brand-filter" value="SteelSeries"> SteelSeries</label>
+            </div>
+        </aside>
+
+        <section>
+
+            <h2 style="font-family: 'Orbitron'; margin-bottom: 30px;">قطع الإكسسوارات</h2>
+            <div class="products-grid" id="accessoriesGrid"></div>
+
+        </section>
+
+    </main>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

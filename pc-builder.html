@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Games // مهندس التجميعات الرقمية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Tajawal:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body class="cyber-bg">
+
+    <div id="header-placeholder"></div>
+
+    <main class="builder-container">
+        <header class="builder-header">
+            <h1>// SYSTEM_RIG_BUILDER</h1>
+            <p>قم بتجهيز عتادك القتالي وبناء منصة الألعاب الخارقة الخاصة بك</p>
+        </header>
+
+        <div class="builder-grid">
+        <section class="build-steps">
+            
+            <div class="step-card" data-category="cpu">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-microchip"></i></div>
+                    <div>
+                        <h3>المعالج // CPU</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('cpu', this)">
+                    <option value="" data-price="0">-- اختر المعالج المركزي --</option>
+                    <option value="i9" data-price="28500">Intel Core i9-14900K (+28,500 ج.م)</option>
+                    <option value="r7" data-price="21000">AMD Ryzen 7 7800X3D (+21,000 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="mobo">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-border-all"></i></div>
+                    <div>
+                        <h3>اللوحة الأم // MOTHERBOARD</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('mobo', this)">
+                    <option value="" data-price="0">-- اختر اللوحة الأم --</option>
+                    <option value="z790" data-price="14500">ASUS ROG Strix Z790-E (+14,500 ج.م)</option>
+                    <option value="b650" data-price="8500">MSI MAG B650 Tomahawk (+8,500 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="gpu">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-vr-cardboard"></i></div>
+                    <div>
+                        <h3>كارت الشاشة // GPU</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('gpu', this)">
+                    <option value="" data-price="0">-- اختر معالج الرسوميات --</option>
+                    <option value="rtx4090" data-price="75000">NVIDIA RTX 4090 24GB (+75,000 ج.م)</option>
+                    <option value="rtx4080" data-price="58000">NVIDIA RTX 4080 Super (+58,000 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="ram">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-memory"></i></div>
+                    <div>
+                        <h3>الذاكرة العشوائية // RAM</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('ram', this)">
+                    <option value="" data-price="0">-- اختر الرامات --</option>
+                    <option value="32gb" data-price="3900">32GB (2x16GB) DDR5 5200MHz (+3,900 ج.م)</option>
+                    <option value="16gb" data-price="1800">16GB (2x8GB) DDR4 3200MHz (+1,800 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="storage">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-hdd"></i></div>
+                    <div>
+                        <h3>وحدة التخزين // STORAGE M.2</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('storage', this)">
+                    <option value="" data-price="0">-- اختر مساحة التخزين --</option>
+                    <option value="2tb" data-price="5200">Samsung 990 Pro 2TB NVMe M.2 (+5,200 ج.م)</option>
+                    <option value="1tb" data-price="3100">Kingston NV2 1TB NVMe PCIe 4.0 (+3,100 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="psu">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-plug"></i></div>
+                    <div>
+                        <h3>مزود الطاقة // POWER SUPPLY</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('psu', this)">
+                    <option value="" data-price="0">-- اختر مزود الطاقة --</option>
+                    <option value="1000w" data-price="9500">Corsair RM1000x 1000W Gold (+9,500 ج.م)</option>
+                    <option value="750w" data-price="5400">DeepCool PM750D 750W Gold (+5,400 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="cooler">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-snowflake"></i></div>
+                    <div>
+                        <h3>نظام التبريد // CPU COOLER</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('cooler', this)">
+                    <option value="" data-price="0">-- اختر نظام التبريد --</option>
+                    <option value="liquid" data-price="6800">NZXT Kraken 360 Liquid Cooler (+6,800 ج.م)</option>
+                    <option value="air" data-price="2200">DeepCool AK620 Digital Air (+2,200 ج.م)</option>
+                </select>
+            </div>
+
+            <div class="step-card" data-category="case">
+                <div class="step-info">
+                    <div class="step-icon"><i class="fas fa-box"></i></div>
+                    <div>
+                        <h3>صندوق الحاسب // PC CASE</h3>
+                        <p class="selected-product-name">لم يتم الاختيار بعد</p>
+                    </div>
+                </div>
+                <select class="cyber-select" onchange="updateBuildSummary('case', this)">
+                    <option value="" data-price="0">-- اختر الصندوق خارجي --</option>
+                    <option value="lianli" data-price="7800">Lian Li O11 Dynamic EVO (+7,800 ج.م)</option>
+                    <option value="nzxt" data-price="4500">NZXT H5 Flow Black (+4,500 ج.م)</option>
+                </select>
+            </div>
+
+        </section>
+
+            <aside class="build-summary-panel">
+                <div class="summary-card">
+                    <h2>// COMMAND_SUMMARY</h2>
+                    <div class="cyber-hr"></div>
+                    <div class="summary-cost">
+                        <span>التكلفة الحالية للمنصة:</span>
+                        <div class="total-price-tag"><span id="totalBuildPrice">0</span> ج.م</div>
+                    </div>
+                    <button class="add-build-to-cart" onclick="addEntireBuildToCart()">
+                        <i class="fas fa-shipping-fast"></i> شحن التجميعة إلى القاعدة
+                    </button>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

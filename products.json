@@ -1,0 +1,733 @@
+{
+  "site_info": {
+    "name": "Mega Games",
+    "version": "2.0.0",
+    "description": "Hardware, Accessories, and Data Grid"
+  },
+  "hardware": [
+    {
+      "id": "h1",
+      "name": "Nvidia RTX 4090",
+      "brand": "Nvidia",
+      "price": "75,000 EGP",
+      "type": "GPU",
+      "image": "gpu1.jpg"
+    },
+    {
+      "id": "h2",
+      "name": "AMD Radeon RX 7900 XTX",
+      "brand": "Amd",
+      "price": "52,000 EGP",
+      "type": "GPU",
+      "image": "gpu2.jpg"
+    },
+    {
+      "id": "h3",
+      "name": "Asus ROG Strix Z790",
+      "brand": "Asus",
+      "price": "18,500 EGP",
+      "type": "MB",
+      "image": "mb1.jpg"
+    },
+    {
+      "id": "h4",
+      "name": "Nvidia RTX 4080 Super",
+      "brand": "Nvidia",
+      "price": "58,000 EGP",
+      "type": "GPU",
+      "image": "gpu3.jpg"
+    },
+    {
+      "id": "h5",
+      "name": "AMD Ryzen 9 7950X",
+      "brand": "Amd",
+      "price": "24,000 EGP",
+      "type": "CPU",
+      "image": "cpu1.jpg"
+    },
+    {
+      "id": "h6",
+      "name": "Asus TUF Gaming RTX 4070",
+      "brand": "Asus",
+      "price": "35,000 EGP",
+      "type": "GPU",
+      "image": "gpu4.jpg"
+    },
+    {
+      "id": "h7",
+      "name": "MSI MPG Z690 Force",
+      "brand": "Msi",
+      "price": "14,000 EGP",
+      "type": "MB",
+      "image": "mb2.jpg"
+    },
+    {
+      "id": "h8",
+      "name": "Gigabyte Aorus RTX 4060",
+      "brand": "Gigabyte",
+      "price": "16,500 EGP",
+      "type": "GPU",
+      "image": "gpu5.jpg"
+    },
+    {
+      "id": "h9",
+      "name": "Intel Core i9-14900K",
+      "brand": "Intel",
+      "price": "26,000 EGP",
+      "type": "CPU",
+      "image": "cpu2.jpg"
+    },
+    {
+      "id": "h10",
+      "name": "Samsung 990 Pro 2TB",
+      "brand": "Samsung",
+      "price": "8,500 EGP",
+      "type": "SSD",
+      "image": "ssd1.jpg"
+    },
+    {
+      "id": "h11",
+      "name": "Corsair Vengeance 32GB DDR5",
+      "brand": "Corsair",
+      "price": "6,200 EGP",
+      "type": "RAM",
+      "image": "ram1.jpg"
+    },
+    {
+      "id": "h12",
+      "name": "EVGA SuperNOVA 1000W",
+      "brand": "Evga",
+      "price": "9,000 EGP",
+      "type": "PSU",
+      "image": "psu1.jpg"
+    },
+    {
+      "id": "h13",
+      "name": "Nvidia RTX 3060 Ti",
+      "brand": "Nvidia",
+      "price": "14,000 EGP",
+      "type": "GPU",
+      "image": "gpu6.jpg"
+    },
+    {
+      "id": "h14",
+      "name": "AMD Ryzen 7 7800X3D",
+      "brand": "Amd",
+      "price": "19,500 EGP",
+      "type": "CPU",
+      "image": "cpu3.jpg"
+    },
+    {
+      "id": "h15",
+      "name": "Asus Prime B760M",
+      "brand": "Asus",
+      "price": "7,500 EGP",
+      "type": "MB",
+      "image": "mb3.jpg"
+    },
+    {
+      "id": "h16",
+      "name": "Crucial P5 Plus 1TB",
+      "brand": "Crucial",
+      "price": "4,200 EGP",
+      "type": "SSD",
+      "image": "ssd2.jpg"
+    },
+    {
+      "id": "h17",
+      "name": "G.Skill Trident Z5 64GB",
+      "brand": "Gskill",
+      "price": "12,500 EGP",
+      "type": "RAM",
+      "image": "ram2.jpg"
+    },
+    {
+      "id": "h18",
+      "name": "Cooler Master 850W Gold",
+      "brand": "Coolermaster",
+      "price": "5,800 EGP",
+      "type": "PSU",
+      "image": "psu2.jpg"
+    },
+    {
+      "id": "h19",
+      "name": "Nvidia RTX 4070 Ti",
+      "brand": "Nvidia",
+      "price": "42,000 EGP",
+      "type": "GPU",
+      "image": "gpu7.jpg"
+    },
+    {
+      "id": "h20",
+      "name": "AMD Radeon RX 6700 XT",
+      "brand": "Amd",
+      "price": "15,500 EGP",
+      "type": "GPU",
+      "image": "gpu8.jpg"
+    },
+    {
+      "id": "h21",
+      "name": "MSI B650 Gaming WiFi",
+      "brand": "Msi",
+      "price": "10,200 EGP",
+      "type": "MB",
+      "image": "mb4.jpg"
+    },
+    {
+      "id": "h22",
+      "name": "Kingston FURY 16GB",
+      "brand": "Kingston",
+      "price": "2,800 EGP",
+      "type": "RAM",
+      "image": "ram3.jpg"
+    },
+    {
+      "id": "h23",
+      "name": "Seagate FireCuda 4TB",
+      "brand": "Seagate",
+      "price": "11,000 EGP",
+      "type": "HDD",
+      "image": "hdd1.jpg"
+    },
+    {
+      "id": "h24",
+      "name": "Lian Li Dynamic EVO Case",
+      "brand": "Lianli",
+      "price": "8,900 EGP",
+      "type": "CASE",
+      "image": "case1.jpg"
+    },
+    {
+      "id": "h25",
+      "name": "Intel Core i7-13700K",
+      "brand": "Intel",
+      "price": "18,000 EGP",
+      "type": "CPU",
+      "image": "cpu4.jpg"
+    },
+    {
+      "id": "h26",
+      "name": "Asus ROG Thor 1200W",
+      "brand": "Asus",
+      "price": "15,000 EGP",
+      "type": "PSU",
+      "image": "psu3.jpg"
+    },
+    {
+      "id": "h27",
+      "name": "Nvidia RTX 4060 Ti",
+      "brand": "Nvidia",
+      "price": "22,500 EGP",
+      "type": "GPU",
+      "image": "gpu9.jpg"
+    },
+    {
+      "id": "h28",
+      "name": "Gigabyte B550 Aorus Elite",
+      "brand": "Gigabyte",
+      "price": "6,800 EGP",
+      "type": "MB",
+      "image": "mb5.jpg"
+    },
+    {
+      "id": "h29",
+      "name": "Western Digital Black 2TB",
+      "brand": "Wd",
+      "price": "7,900 EGP",
+      "type": "SSD",
+      "image": "ssd3.jpg"
+    },
+    {
+      "id": "h30",
+      "name": "NZXT H9 Flow Case",
+      "brand": "Nzxt",
+      "price": "9,500 EGP",
+      "type": "CASE",
+      "image": "case2.jpg"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "a1",
+      "name": "Logitech G502 Hero",
+      "brand": "Logitech",
+      "price": "2,800 EGP",
+      "type": "MOUSE",
+      "image": "acc1.jpg"
+    },
+    {
+      "id": "a2",
+      "name": "Razer DeathAdder V3 Pro",
+      "brand": "Razer",
+      "price": "6,500 EGP",
+      "type": "MOUSE",
+      "image": "acc2.jpg"
+    },
+    {
+      "id": "a3",
+      "name": "SteelSeries Apex Pro",
+      "brand": "SteelSeries",
+      "price": "8,200 EGP",
+      "type": "KB",
+      "image": "acc3.jpg"
+    },
+    {
+      "id": "a4",
+      "name": "HyperX Cloud II Wireless",
+      "brand": "HyperX",
+      "price": "4,800 EGP",
+      "type": "HEADSET",
+      "image": "acc4.jpg"
+    },
+    {
+      "id": "a5",
+      "name": "Logitech G Pro X Superlight",
+      "brand": "Logitech",
+      "price": "5,900 EGP",
+      "type": "MOUSE",
+      "image": "acc5.jpg"
+    },
+    {
+      "id": "a6",
+      "name": "Razer BlackWidow V4",
+      "brand": "Razer",
+      "price": "7,100 EGP",
+      "type": "KB",
+      "image": "acc6.jpg"
+    },
+    {
+      "id": "a7",
+      "name": "SteelSeries Arctis Nova 7",
+      "brand": "SteelSeries",
+      "price": "7,500 EGP",
+      "type": "HEADSET",
+      "image": "acc7.jpg"
+    },
+    {
+      "id": "a8",
+      "name": "HyperX Alloy Origins",
+      "brand": "HyperX",
+      "price": "3,400 EGP",
+      "type": "KB",
+      "image": "acc8.jpg"
+    },
+    {
+      "id": "a9",
+      "name": "Logitech G915 TKL",
+      "brand": "Logitech",
+      "price": "9,000 EGP",
+      "type": "KB",
+      "image": "acc9.jpg"
+    },
+    {
+      "id": "a10",
+      "name": "Razer Kraken V3",
+      "brand": "Razer",
+      "price": "3,900 EGP",
+      "type": "HEADSET",
+      "image": "acc10.jpg"
+    },
+    {
+      "id": "a11",
+      "name": "Corsair K100 RGB",
+      "brand": "Corsair",
+      "price": "9,500 EGP",
+      "type": "KB",
+      "image": "acc11.jpg"
+    },
+    {
+      "id": "a12",
+      "name": "SteelSeries Rival 600",
+      "brand": "SteelSeries",
+      "price": "2,500 EGP",
+      "type": "MOUSE",
+      "image": "acc12.jpg"
+    },
+    {
+      "id": "a13",
+      "name": "Logitech G733 Lightspd",
+      "brand": "Logitech",
+      "price": "5,200 EGP",
+      "type": "HEADSET",
+      "image": "acc13.jpg"
+    },
+    {
+      "id": "a14",
+      "name": "HyperX Pulsefire Haste",
+      "brand": "HyperX",
+      "price": "1,900 EGP",
+      "type": "MOUSE",
+      "image": "acc14.jpg"
+    },
+    {
+      "id": "a15",
+      "name": "Razer Viper V2 Pro",
+      "brand": "Razer",
+      "price": "5,800 EGP",
+      "type": "MOUSE",
+      "image": "acc15.jpg"
+    },
+    {
+      "id": "a16",
+      "name": "SteelSeries Qck Heavy XL",
+      "brand": "SteelSeries",
+      "price": "1,200 EGP",
+      "type": "PAD",
+      "image": "acc16.jpg"
+    },
+    {
+      "id": "a17",
+      "name": "Logitech G440 Hard Pad",
+      "brand": "Logitech",
+      "price": "950 EGP",
+      "type": "PAD",
+      "image": "acc17.jpg"
+    },
+    {
+      "id": "a18",
+      "name": "Razer Goliathus Chroma",
+      "brand": "Razer",
+      "price": "1,800 EGP",
+      "type": "PAD",
+      "image": "acc18.jpg"
+    },
+    {
+      "id": "a19",
+      "name": "HyperX Fury S Large",
+      "brand": "HyperX",
+      "price": "850 EGP",
+      "type": "PAD",
+      "image": "acc19.jpg"
+    },
+    {
+      "id": "a20",
+      "name": "Blue Yeti Microphone",
+      "brand": "Logitech",
+      "price": "6,500 EGP",
+      "type": "MIC",
+      "image": "acc20.jpg"
+    },
+    {
+      "id": "a21",
+      "name": "Razer Seiren V2 Pro",
+      "brand": "Razer",
+      "price": "5,200 EGP",
+      "type": "MIC",
+      "image": "acc21.jpg"
+    },
+    {
+      "id": "a22",
+      "name": "SteelSeries Arena 7 Speakers",
+      "brand": "SteelSeries",
+      "price": "12,000 EGP",
+      "type": "SPEAKER",
+      "image": "acc22.jpg"
+    },
+    {
+      "id": "a23",
+      "name": "Logitech C922 Pro Cam",
+      "brand": "Logitech",
+      "price": "4,500 EGP",
+      "type": "WEBCAM",
+      "image": "acc23.jpg"
+    },
+    {
+      "id": "a24",
+      "name": "Elgato Stream Deck MK.2",
+      "brand": "Elgato",
+      "price": "7,800 EGP",
+      "type": "STREAM",
+      "image": "acc24.jpg"
+    },
+    {
+      "id": "a25",
+      "name": "Asus ROG Azoth Keyboard",
+      "brand": "Asus",
+      "price": "11,500 EGP",
+      "type": "KB",
+      "image": "acc25.jpg"
+    },
+    {
+      "id": "a26",
+      "name": "Razer Basilisk V3",
+      "brand": "Razer",
+      "price": "3,200 EGP",
+      "type": "MOUSE",
+      "image": "acc26.jpg"
+    },
+    {
+      "id": "a27",
+      "name": "HyperX Cloud Alpha S",
+      "brand": "HyperX",
+      "price": "4,100 EGP",
+      "type": "HEADSET",
+      "image": "acc27.jpg"
+    },
+    {
+      "id": "a28",
+      "name": "Logitech G815 RGB",
+      "brand": "Logitech",
+      "price": "7,400 EGP",
+      "type": "KB",
+      "image": "acc28.jpg"
+    },
+    {
+      "id": "a29",
+      "name": "SteelSeries Arctis 9X",
+      "brand": "SteelSeries",
+      "price": "8,900 EGP",
+      "type": "HEADSET",
+      "image": "acc29.jpg"
+    },
+    {
+      "id": "a30",
+      "name": "Glorious Model O-",
+      "brand": "Glorious",
+      "price": "2,400 EGP",
+      "type": "MOUSE",
+      "image": "acc30.jpg"
+    }
+  ],
+  "dataGrid": [
+    {
+      "id": "d1",
+      "name": "Elden Ring",
+      "brand": "Action",
+      "price": "1,200 EGP",
+      "type": "PC_Games",
+      "image": "game1.jpg"
+    },
+    {
+      "id": "d2",
+      "name": "Spider-Man 2",
+      "brand": "Action",
+      "price": "2,100 EGP",
+      "type": "PS5_Games",
+      "image": "game2.jpg"
+    },
+    {
+      "id": "d3",
+      "name": "Adobe Master Collection",
+      "brand": "Design",
+      "price": "500 EGP",
+      "type": "Design",
+      "image": "soft1.jpg"
+    },
+    {
+      "id": "d4",
+      "name": "John Wick 4",
+      "brand": "Action",
+      "price": "50 EGP",
+      "type": "EN_Film",
+      "image": "film1.jpg"
+    },
+    {
+      "id": "d5",
+      "name": "The Dark Knight",
+      "brand": "Action",
+      "price": "40 EGP",
+      "type": "EN_Film",
+      "image": "film2.jpg"
+    },
+    {
+      "id": "d6",
+      "name": "Cyberpunk 2077",
+      "brand": "Action",
+      "price": "900 EGP",
+      "type": "PC_Games",
+      "image": "game3.jpg"
+    },
+    {
+      "id": "d7",
+      "name": "God of War Ragnarok",
+      "brand": "Action",
+      "price": "1,800 EGP",
+      "type": "PS5_Games",
+      "image": "game4.jpg"
+    },
+    {
+      "id": "d8",
+      "name": "FIFA 24 (FC24)",
+      "brand": "Sports",
+      "price": "1,500 EGP",
+      "type": "PC_Games",
+      "image": "game5.jpg"
+    },
+    {
+      "id": "d9",
+      "name": "كيرة والجن",
+      "brand": "Action",
+      "price": "40 EGP",
+      "type": "AR_Film",
+      "image": "film3.jpg"
+    },
+    {
+      "id": "d10",
+      "name": "Office 2021 Pro",
+      "brand": "Office",
+      "price": "200 EGP",
+      "type": "Office",
+      "image": "soft2.jpg"
+    },
+    {
+      "id": "d11",
+      "name": "AutoCAD 2024",
+      "brand": "Design",
+      "price": "400 EGP",
+      "type": "Design",
+      "image": "soft3.jpg"
+    },
+    {
+      "id": "d12",
+      "name": "Interstellar",
+      "brand": "Drama",
+      "price": "50 EGP",
+      "type": "EN_Film",
+      "image": "film4.jpg"
+    },
+    {
+      "id": "d13",
+      "name": "Red Dead Redemption 2",
+      "brand": "Action",
+      "price": "850 EGP",
+      "type": "PC_Games",
+      "image": "game6.jpg"
+    },
+    {
+      "id": "d14",
+      "name": "The Last of Us 2",
+      "brand": "Horror",
+      "price": "1,400 EGP",
+      "type": "PS5_Games",
+      "image": "game7.jpg"
+    },
+    {
+      "id": "d15",
+      "name": "Inception",
+      "brand": "Action",
+      "price": "40 EGP",
+      "type": "EN_Film",
+      "image": "film5.jpg"
+    },
+    {
+      "id": "d16",
+      "name": "فوي فوي فوي",
+      "brand": "Drama",
+      "price": "50 EGP",
+      "type": "AR_Film",
+      "image": "film6.jpg"
+    },
+    {
+      "id": "d17",
+      "name": "GTA V Premium",
+      "brand": "Action",
+      "price": "600 EGP",
+      "type": "PC_Games",
+      "image": "game8.jpg"
+    },
+    {
+      "id": "d18",
+      "name": "Hogwarts Legacy",
+      "brand": "Action",
+      "price": "1,100 EGP",
+      "type": "PC_Games",
+      "image": "game9.jpg"
+    },
+    {
+      "id": "d19",
+      "name": "Windows 11 Pro",
+      "brand": "Office",
+      "price": "150 EGP",
+      "type": "Office",
+      "image": "soft4.jpg"
+    },
+    {
+      "id": "d20",
+      "name": "V-Ray for 3ds Max",
+      "brand": "Design",
+      "price": "600 EGP",
+      "type": "Design",
+      "image": "soft5.jpg"
+    },
+    {
+      "id": "d21",
+      "name": "The Witcher 3",
+      "brand": "Action",
+      "price": "550 EGP",
+      "type": "PC_Games",
+      "image": "game10.jpg"
+    },
+    {
+      "id": "d22",
+      "name": "Gran Turismo 7",
+      "brand": "Sports",
+      "price": "1,700 EGP",
+      "type": "PS5_Games",
+      "image": "game11.jpg"
+    },
+    {
+      "id": "d23",
+      "name": "The Conjuring",
+      "brand": "Horror",
+      "price": "40 EGP",
+      "type": "EN_Film",
+      "image": "film7.jpg"
+    },
+    {
+      "id": "d24",
+      "name": "بيت الروبي",
+      "brand": "Drama",
+      "price": "50 EGP",
+      "type": "AR_Film",
+      "image": "film8.jpg"
+    },
+    {
+      "id": "d25",
+      "name": "Assassin's Creed Mirage",
+      "brand": "Action",
+      "price": "1,300 EGP",
+      "type": "PC_Games",
+      "image": "game12.jpg"
+    },
+    {
+      "id": "d26",
+      "name": "Forza Horizon 5",
+      "brand": "Sports",
+      "price": "1,000 EGP",
+      "type": "PC_Games",
+      "image": "game13.jpg"
+    },
+    {
+      "id": "d27",
+      "name": "CorelDraw 2023",
+      "brand": "Design",
+      "price": "350 EGP",
+      "type": "Design",
+      "image": "soft6.jpg"
+    },
+    {
+      "id": "d28",
+      "name": "Resident Evil 4",
+      "brand": "Horror",
+      "price": "1,250 EGP",
+      "type": "PC_Games",
+      "image": "game14.jpg"
+    },
+    {
+      "id": "d29",
+      "name": "Oppenheimer",
+      "brand": "Drama",
+      "price": "60 EGP",
+      "type": "EN_Film",
+      "image": "film9.jpg"
+    },
+    {
+      "id": "d30",
+      "name": "Mortal Kombat 1",
+      "brand": "Action",
+      "price": "1,900 EGP",
+      "type": "PS5_Games",
+      "image": "game15.jpg"
+    }
+  ]
+}

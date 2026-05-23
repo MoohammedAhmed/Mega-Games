@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+    <meta name="description" content="Mega Games - متجر أجهزة الكمبيوتر والألعاب الرائد. تجميعات PC احترافية وأحدث الإكسسوارات.">
+    <meta name="keywords" content="gaming, hardware, PC, RTX, Mega Games, ألعاب, كمبيوتر">
+    <meta name="author" content="Mega Games Team">
+    <meta property="og:title" content="Mega Games | عالم الجيمنج">
+    <meta property="og:description" content="تسوق أحدث قطع الهاردوير بأسعار تنافسية.">
+    <meta property="og:image" content="logo.png">
+
+    <meta charset="UTF-8">
+    <title>الداتا والألعاب - Mega Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-layout">
+
+        <aside class="filter-sidebar">
+            <h3 style="margin-bottom: 20px; font-family: 'Orbitron'; color: var(--neon-blue);">تصفية البحث</h3>
+            
+            <div class="filter-group active">
+                <h4 class="accordion-header">الأفلام <i class="arrow-icon">▾</i></h4>
+                <div class="accordion-content">
+                    <label><input type="checkbox" class="Film-filter" value="AR_Film"> أفلام عربي</label>
+                    <label><input type="checkbox" class="Film-filter" value="EN_Film"> أفلام أجنبي</label>
+                    <label><input type="checkbox" class="Film-filter" value="Horror"> رعب</label>
+                    <label><input type="checkbox" class="Film-filter" value="Action"> أكشن</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h4 class="accordion-header">الألعاب <i class="arrow-icon">▾</i></h4>
+                <div class="accordion-content">
+                    <label><input type="checkbox" class="Games-filter" value="PC_Games"> ألعاب PC</label>
+                    <label><input type="checkbox" class="Games-filter" value="PS5_Games"> ألعاب PS5</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h4 class="accordion-header">البرامج <i class="arrow-icon">▾</i></h4>
+                <div class="accordion-content">
+                    <label><input type="checkbox" class="Programs-filter" value="Design"> برامج تصميم</label>
+                    <label><input type="checkbox" class="Programs-filter" value="Office"> برامج مكتبية</label>
+                </div>
+            </div>
+        </aside>
+
+
+        <section>
+
+            <h2 style="font-family: 'Orbitron'; margin-bottom: 30px;">الداتا والالعاب</h2>
+            <div class="products-grid" id="dataGrid"></div>
+
+        </section>
+
+    </main>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

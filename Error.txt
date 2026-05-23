@@ -1,0 +1,9 @@
+1 - Complite and Fix Filter in data Page
+
+2 - Code cleaning and optimization
+
+3 - add Meta data for SEO
+
+4 - add Error handler
+
+5 - Edit classes and Ids for code

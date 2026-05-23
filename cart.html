@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGA GAMES | قائمة التجهيز</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> </head>
+<body class="cart-page">
+    <div class="grid-overlay"></div>
+
+    <div class="hub-container">
+        <header class="hub-header">
+            <h1>قائمة التجهيز<span>// CART_LOADOUT</span></h1>
+            <p>راجع العتاد المختار قبل بدء عملية النقل.</p>
+        </header>
+
+<div class="cart-section" dir="rtl">
+    <div class="cart-wrapper">
+        
+        <header class="cart-header">
+            <h2>سلة المشتريات <span class="count">(2)</span></h2>
+        </header>
+
+        <div class="cart-grid">
+            
+            <main class="items-list">
+                <article class="cart-card">
+                    <div class="product-thumb">
+                        <img src="gpu.png" alt="Product">
+                    </div>
+
+                    <div class="product-info">
+                        <h3>NVIDIA RTX 5090 FE</h3>
+                        <p>هاردوير // إصدار المبدعين</p>
+                    </div>
+
+                    <div class="product-controls">
+                        <div class="qty-selector">
+                            <button>+</button>
+                            <span>1</span>
+                            <button>-</button>
+                        </div>
+                        <div class="price">$1,599</div>
+                    </div>
+
+                    <div class="product-remove">
+                        <button class="close-btn" title="حذف">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </article>
+            </main>
+
+            <aside class="cart-summary">
+                <div class="summary-box">
+                    <div class="s-row">
+                        <span>إجمالي المنتجات</span>
+                        <span>$1,699</span>
+                    </div>
+                    <div class="s-row discount">
+                        <span>الخصم</span>
+                        <span>-$100</span>
+                    </div>
+                    <div class="total-row">
+                        <span>الإجمالي</span>
+                        <span>$1,599</span>
+                    </div>
+                    <button class="checkout-btn">تأكيد الطلب</button>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</div>
+
+<div class="scan-overlay" id="scanEffect"></div>
+
+<div class="success-screen" id="successOverlay">
+    <div class="tech-card">
+        <div class="corner-border top-right"></div>
+        <div class="corner-border bottom-left"></div>
+        
+        <div class="success-content">
+            <div class="pulse-circle">
+                <i class="fas fa-check"></i>
+            </div>
+            <h2 class="orbitron">TRANSACTION_COMPLETE</h2>
+            <div class="divider"></div>
+            <p class="status-text">تم تأكيد الطلب بنجاح // رقم العملية: #MG-8820</p>
+            
+            <div class="info-grid">
+                <div class="info-item"><span>الحالة:</span> <span>مقبول</span></div>
+                <div class="info-item"><span>النظام:</span> <span>آمن 100%</span></div>
+            </div>
+
+            <button onclick="window.location.href='index.html'" class="back-home-btn">
+                العودة للقاعدة الرئيسية
+            </button>
+        </div>
+    </div>
+</div>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
